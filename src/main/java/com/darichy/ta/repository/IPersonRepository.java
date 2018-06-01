@@ -10,6 +10,7 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.repository.query.Param;
 
 import javax.persistence.QueryHint;
+import org.springframework.stereotype.Repository;
 
 /**
  * Spring JPA repository object interface untuk mendapatkan data dari table Person.
@@ -17,6 +18,7 @@ import javax.persistence.QueryHint;
  * @author Ahmad Fajar
  * @since 26/08/2015, modified: 29/08/2015 19:25
  */
+@Repository
 public interface IPersonRepository extends PagingAndSortingRepository<Person, Long>
 {
     /**

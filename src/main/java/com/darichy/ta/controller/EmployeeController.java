@@ -25,7 +25,7 @@ import java.util.*;
 /**
  * Controller untuk mengelola daftar personil.
  *
- * @author Ahmad Fajar
+ * @author Darichy3
  * @since 26/08/2015, modified: 30/08/2015 01:03
  */
 @Controller

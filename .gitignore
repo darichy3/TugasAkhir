@@ -26,7 +26,7 @@ Desktop.ini
 # "Make or build" output files
 /out/
 /target/classes/
-/target/JPACrud/
+/target/TugasAkhir/
 /target/generated-test-sources
 /src/main/webapp/styles/less/bootstrap/
 *.war

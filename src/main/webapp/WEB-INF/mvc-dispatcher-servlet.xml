@@ -77,6 +77,6 @@
     </bean>
 
     <!-- Scan classpath for annotations, eg: @Controller -->
-    <context:component-scan base-package="org.fajarapps.jpacrud.controller"/>
+    <context:component-scan base-package="com.darichy.ta.controller"/>    
 
 </beans>

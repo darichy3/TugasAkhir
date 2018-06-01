@@ -9,13 +9,15 @@ import org.springframework.data.jpa.repository.QueryHints;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
 import javax.persistence.QueryHint;
+import org.springframework.stereotype.Repository;
 
 /**
  * Spring JPA repository object interface untuk mendapatkan data dari table Department.
  *
- * @author Ahmad Fajar
+ * @author Darichy3
  * @since 26/08/2015, modified: 01/09/2015 16:53
  */
+@Repository
 public interface IDepartmentRepository extends PagingAndSortingRepository<Department, Integer>
 {
     /**
