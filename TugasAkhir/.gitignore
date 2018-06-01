@@ -1,0 +1,60 @@
+<<<<<<< HEAD
+## Covers Operating resource files
+# OS X resource fork:
+.DS_Store
+._.DS_Store
+
+# Windows thumbnail cache:
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+## Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio
+# Directory-based project format:
+.idea/
+
+# File-based project format:
+*.iml
+*.ipr
+*.iws
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+## Covers Project spesific files
+# "Make or build" output files
+/out/
+/target/classes/
+/target/TugasAkhir/
+/target/generated-test-sources
+/src/main/webapp/styles/less/bootstrap/
+*.war
+*.ear
+=======
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+>>>>>>> 8f8675bc1a3f5671a3e2c2b26ba20b12805ca721
+/TugasAkhir/target/
